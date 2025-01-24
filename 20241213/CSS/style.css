@@ -1,5 +1,12 @@
 @charset "UTF-8";
 
+.back {
+    background-color: #c7ffb9;
+    width: 1100px;
+    margin: 0 auto;
+
+}
+
 body {
     background: #EEFFC0;
     justify-content: center;
