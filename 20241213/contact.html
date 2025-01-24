@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="Main-grid">
+        <div class="header-design">
+            <h1 class="title"><a href="index.html">四季の美しさ</a></h1>
+            <nav id="nav">
+                <ul class="menu-group">
+                    <li class="pasge"><a href="contact.html">お問い合わせ</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="main-picture">
+            <img src="images/Designer (1).png" alt="#">
+        </div>
+    </header>
+    
+    <div class="contact-form">
+        <div class="form-design">
+            <div class="contact-title">
+                <h1>お問い合わせフォーム</h1>
+            </div>
+            <form action="contact.php" method="post" class="center1">
+                <tr>
+                    <th class="contact-item">名前: </th>
+                    <td class="contact-body">
+                      <input type="text" name="名前" class="form-text" />
+                    </td>
+                  </tr>
+
+                  <br>
+
+                  <tr>
+                    <th class="contact-item">メール: </th>
+                    <td class="contact-body">
+                      <input type="email" name="メール" class="form-text" />
+                    </td>
+                  </tr>
+
+                  <br>
+
+                  <tr>
+                    <th class="contact-item">お問い合わせ内容: </th>
+                    <td class="contact-body">
+                      <textarea name="問い合わせ" class="form-textarea"></textarea>
+                    </td>
+                  </tr>
+                <input type="submit" value="送信">
+            </form>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="footer-design">
+            <div class="footer-p">
+                <p>2025: 自然のリズムを感じて</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
